@@ -11,5 +11,5 @@ Just as the name implies, here I try to manually solve a QUBO of a proposed set 
 # LogicalCircuits
 I wondered whether if we can run classical algorithms on an annealer. To do so I tried building logical gates that are solved by the annealer. It is important to note that the current algorithm does not output the correct result always. I am close to making this work.
 
-# Estimating Offset
+# EstimatingOffset
 Adding a suitable offset to your QUBO can play a major role in the success of the annealing process. This algorithm uses a centralised offset approach to calculate a suitable offset for a QUBO.
